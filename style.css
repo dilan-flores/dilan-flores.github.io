@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+header .nav-bg{
+    display:flex;
+    place-content: center;
+}
+
+header .nav-bg >a{
+    padding:0px 10px 0px 10px;
+}
+
+header #Inicio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    place-content: center;
+    padding: 100px;
+    margin:50px;
+    background-color: rgb(18, 93, 97);
+    color:aliceblue
+}
+
+header #Inicio .nombre{
+    grid-area: 2/1/3/3;
+    text-align: center;
+    font-size: 30px;
+}
+
+header #Inicio .titulo{
+    grid-area: 3/1/4/3;
+    text-align: center;
+    font-size: 25px;
+}
+
+header #Inicio img{
+    grid-area: 1/3/5/4;
+    place-self: center;
+}
+
+header .contacto{
+    display: flex;
+    justify-content: center;
+}
+
+#Sobre_mi{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,auto-fit);
+    place-content: center;
+    padding: 100px;
+    margin:50px;
+    gap:10px;
+}
+
+#Sobre_mi img{
+    grid-area: 3/1/4/3;
+}
+
+#Sobre_mi h2{
+    display:flex;
+    grid-area: 2/2/3/4;
+    justify-self: center;
+    font-size: 30px;
+}
+
+#Sobre_mi p{
+    grid-area: 3/2/4/4;
+    text-align: center;
+}
+
+.regresar{
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+#Estudios{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto-fit);
+    place-content: center;
+    padding: 100px;
+    margin:50px;
+    background-color: rgb(18, 93, 97);
+    color:aliceblue;
+    gap:10px;
+}
+
+#Estudios h2{
+    grid-area: 1/1/2/3;
+    text-align: center;
+    font-size: 30px;
+}
+
+#Estudios p{
+    grid-area: 2/1/3/3;
+    text-align: center;
+}
+
+#Estudios img{
+    grid-area: 2/3/3/4;
+    place-self: center;
+}
+
+#Experiencia{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,auto-fit);
+    place-content: center;
+    padding: 100px;
+    margin:50px;
+    gap:10px;
+}
+
+
+#Experiencia img{
+    grid-area: 3/1/5/3;
+}
+
+#Experiencia h2{
+    display:flex;
+    grid-area: 2/2/3/4;
+    justify-self: center;
+    font-size: 30px;
+}
+#Experiencia h3{
+    display:flex;
+    grid-area: 3/2/4/4;
+    justify-self: center;
+    font-size: 25px;
+}
+
+#Experiencia p{
+    grid-area: 4/2/5/4;
+    text-align: center;
+}
+
+#contacto{
+    display: grid;
+    grid-template-rows: repeat(3,auto-fit);
+    grid-template-columns: repeat(4,1fr);
+    place-content: center;
+    gap: 10px;
+    padding: 100px;
+    margin:50px;
+    background-color: rgb(18, 93, 97);
+    color:aliceblue;
+}
+
+#contacto h2{
+    grid-area: 1/2/2/4;
+    place-self: center;
+    font-size: 30px;
+}
+
+#contacto h3{
+    grid-area: 2/2/3/4;
+    place-self: center;
+    font-size: 25px;
+}
+
+#contacto .formulario{
+    grid-area: 3/2/4/4;
+}
+
+.footer{
+    padding: 50px;
+}
+
+
