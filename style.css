@@ -2,11 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin:0;
-}
 
-header .nav-bg{
-    display:flex;
-    place-content: center;
 }
 
 header .nav-bg >a{
