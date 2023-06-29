@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: #D5E5F5;
+    
+} 
+
+#perfil_{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #3781E3;
+} 
+
+#Inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+    border-bottom: #4a5058;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+ nav a {
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+
+    color: #00214D;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 40px;
+    flex-wrap: wrap;
+    flex-basis: max-content;
+}
+
+#perfil {
+    background-color: #D5E5F5;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 10px;
+    border-bottom: #4a5058;
+    border-bottom-width: 40px;
+    border-bottom-style: solid;
+}
+
+#perfil img{
+    width: 200px;
+    border-radius: 20px;
+} */
+
+#perfil .perfil_content{
+    width: 31%;
+    /*text-align: -webkit-center;*/
+}
+
+#datos{
+    border-bottom: #4a5058;
+    border-bottom-width: 40px;
+    border-bottom-style: solid;
+    padding: 40px 0px 20px;
+    flex-wrap: wrap;
+}
+
+#datos img{
+    width: 70px;
+    margin-right: 20px;
+}
+
+#datos .personal, #datos .cuentas{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 40px;
+    justify-content: space-around;
+}
+
+.personal >div, .cuentas >li, .cuentas div{
+    display: flex;
+}
+
+.personal >div >h2, .cuentas >li >h2, .correo h2{
+    align-self: center;
+}
+
+
+#Sobre_mi{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 40px;
+    padding:200px 0px;
+    border-bottom: #4a5058;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.Sobre_mi-content{
+    align-items: center;
+    align-self: center;
+}
+
+#Sobre_mi img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+#Estudios{
+    padding: 200px 0px;
+
+    
+    border-bottom: #4a5058;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+#Estudios h1{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.academico h1, .idiomas h1{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#Estudios .formacion{
+    border-left: #4a5058;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+#Estudios .formacion{
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    justify-content: space-around;
+    align-self: center;
+} 
+
+.fecha{
+    text-align: end;
+}
+
+#Experiencia{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 200px 0px;
+    border-bottom: #4a5058;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.Experiencia_content_part{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+#Experiencia img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+#Experiencia h1{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.Experiencia_content{
+    align-items: center;
+    align-self: center;
+}
+
+#Mas_sobre_mi{
+    display: flex;
+    padding: 200px 0px;
+    justify-content: space-around;
+
+    border-bottom: #4a5058;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+#Mas_sobre_mi h1{
+    padding-bottom: 20px;
+    text-align: center;
+}
+#Mas_sobre_mi .referencias{
+    text-align: center;
+}
+
+
+footer {
+    background-color: #D5E5F5;
+    text-align: center;
+    padding: 40px 0px 10px;
+    width: 100%;
+}
+
+
